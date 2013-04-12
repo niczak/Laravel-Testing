@@ -22,6 +22,8 @@
 <?php print_r($data); ?>
 <h2>Testing Eloquent ORM</h2>
 <?php var_dump($database); ?>
+<h2>Testing Delicious API</h2>
+<?php var_dump($bookmarks); ?>
 <h2>Testing String Functions</h2>
 <?php echo Str::random(32); ?>
 			</div>
