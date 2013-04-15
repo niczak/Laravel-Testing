@@ -18,12 +18,13 @@
 		</header>
 		<div role="main" class="main">
 			<div class="home">
-<h2>Testing the Delicious API &mdash; <?php echo HTML::link('/delicious', "View this Section"); ?></h2>
-<h2>Testing the Twitter API &mdash; <?php echo HTML::link('/twitter', "View this Section"); ?></h2>
-<h2>Testing Various Functionality &mdash; <?php echo HTML::link('/test', "View this Secion"); ?></h2>
-
+<h2>Testing Twitter API</h2>
+<?php  
+echo "<pre>";
+var_dump($tweets);
+echo "</pre>";
+?>
 			</div>
 		</div>
 	</div>
-
 <?php echo $footer; ?>
