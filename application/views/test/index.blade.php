@@ -29,5 +29,4 @@
 			</div>
 		</div>
 	</div>
-</body>
-</html>
+<?php echo $footer; ?>

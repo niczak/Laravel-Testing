@@ -28,5 +28,4 @@ foreach($bookmarks as $bookmark) {
 			</div>
 		</div>
 	</div>
-</body>
-</html>
+<?php echo $footer; ?>

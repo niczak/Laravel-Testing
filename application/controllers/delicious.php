@@ -4,7 +4,7 @@ class Delicious_Controller extends Base_Controller {
 	
 	public function action_index() {
 		$bookmarks = $this->_getBookmarks();
-		return View::make('delicious.index')->with('bookmarks', $bookmarks);
+		return View::make('delicious.index')->nest('footer', 'partials.footer')->with('bookmarks', $bookmarks);
 	}
 
 
