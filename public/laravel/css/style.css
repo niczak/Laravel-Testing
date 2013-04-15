@@ -365,6 +365,10 @@ code
 	color:#ccc;
 }
 
+.tweet {
+	padding-bottom:10px;
+}
+
 /* end ------------------------ */
 
 @media print {

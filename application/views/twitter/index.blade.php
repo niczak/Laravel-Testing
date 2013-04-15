@@ -20,9 +20,16 @@
 			<div class="home">
 <h2>Testing Twitter API</h2>
 <?php  
-echo "<pre>";
-var_dump($tweets);
-echo "</pre>";
+// echo "<pre>";
+// var_dump($tweets->results);
+// echo "</pre>";
+
+foreach($tweets->results as $tweet) {
+	printf("<div class=\"tweet\"><img src=\"%s\" />%s</div>\n", 
+		$tweet->profile_image_url, $tweet->text);
+}
+
+
 ?>
 			</div>
 		</div>
