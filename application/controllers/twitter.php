@@ -4,7 +4,7 @@ class Twitter_Controller extends Base_Controller {
 	
 	public function action_index() {
 		$tweets = $this->_getTweets('niczak');
-		return View::make('twitter.index')->nest('footer', 'partials.footer')->with('tweets', $tweets);
+		return View::make('twitter.index')->nest('header', 'partials.header')->nest('footer', 'partials.footer')->with('tweets', $tweets);
 	}
 
 

@@ -8,7 +8,7 @@ class Test_Controller extends Base_Controller {
 		$a = array("name"=>"Nicholas", "twitter"=>"@niczak");
 		$b = array("database"=>$data);
 		$bookmarks = $this->_getBookmarks();
-		return View::make('test.index')->nest('footer', 'partials.footer')->with('data', $a)->with('database', $b)->with('bookmarks', $bookmarks);
+		return View::make('test.index')->nest('header', 'partials.header')->nest('footer', 'partials.footer')->with('data', $a)->with('database', $b)->with('bookmarks', $bookmarks);
 	}
 
 
