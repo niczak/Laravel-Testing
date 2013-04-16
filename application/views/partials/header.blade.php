@@ -10,9 +10,8 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<h1>Laravel</h1>
+			<a href="/" id="bannerText"><h1>Laravel</h1></a>
 			<h2>Playground</h2>
-
 			<p class="intro-text" style="margin-top: 45px;">
 			</p>
 		</header>
